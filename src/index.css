@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+SC:wght@300;400;500;600;700&family=Domine:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  font-family: system-ui, 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: #101010;
+  background: rgba(237, 233, 228, 1);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1, h2, h3, h4, h5{
+  font-family: "Cormorant SC", serif;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
+nav ul {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+nav ul li{
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logo{
+  font-size: 35px;
+  font-family: "Caveat", cursive;
+}
+
+
+.fa-cart-shopping{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button{
+  background: #101010;
+  color: rgba(237, 233, 228, 1);
+  border: none;
+  padding: 22px 70px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover{
+  background: gray;
+}
+
+.section{
+  padding: 2rem 7rem;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  height: 100vh;
+
+}
+
+.banner-writeup, .about-writeup{
+  margin-top: 10vh;
+  text-align: left;
+  /* padding-right: 8rem; */
+}
+
+.about-writeup h1, .blog h1{
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner-writeup h1{
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.banner .img, .about .img{
+  margin-top: 15vh;
+}
+
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  height: 130vh;
+  background: #ffffff;
+}
+
+.passion{
+  background: #101010;
+  color: #ffffff;
+}
+
+.passion h1{
+  font-size: 70px;
+  text-align: center;
+}
+
+.passionImg p{
+  font-family: "Cormorant SC", serif;
+}
+
+.img-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.img-con .passionImg img{
+  height: 384px;
+  width: 384px;
+}
+
+.passionImg p{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.blog{
+  background: #ffffff;
+}
+
+.blog-writecon{
+  display: flex;
+  margin-top: -100px;
+  background: #baaa96;
+}
+
+.blog-write{
+  text-align: start;
+  padding: 4rem;
+  margin-top: 45px;
+  color: #ffffff;
+}
+
+.blog-write h2{
+  font-size: 40px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.rotate-con{
+  text-align: center;
+}
+
+.rotate{
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 70px;
+  display: inline-block;
+  transform: rotate(-15deg);
+  font-weight: 400;
+  transform-origin: center;
+  webkit-font-smoothing: antialiased;
+}
+
+
+.contact-con{
+  text-align: center;
+  padding: 0 10rem;
+  line-height: 1;
+}
+
+.contact-con h1{
+  font-size: 45px;
+}
+
+
+.image-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.image-con img{
+  object-fit: cover;
+  transition: transform 0.8s;
+  cursor: pointer;
+  width: 25%;
+  height: 80vh;
+}
+
+.image-con img:hover{
+  transform: scale(1.1);
+}
+
+.socials{
+  text-align: center;
+  background: #ffffff;
+  padding: 4rem 10rem;
+}
+
+.social-media ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+  list-style: none;
+}
+
+.socials h1{
+  font-weight: 600;
+}
+
+.socials a{
+  text-decoration: none;
+}
+
+.socials p{
+  font-size: 20px;
+  color: #101010;
+  font-weight: 500;
+}
+
+.social-media li{
+  color: #101010;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mainFooter{
+  display: flex;
+  justify-content: space-between;
+  background: #101010;
+  color: #ffffff;
+  padding: 7rem 7rem;
+}
+
+.mainFooter ul{
+  justify-content: space-between;
+  list-style: none;
+}
+
+.mainFooter li{
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: .8rem;
+  font-family: "Cormorant SC", serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title h1{
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+}
+
+
+.footer-writeup{
+  text-align: end;
+}
+
+
+
+
+
+@media (max-width: 1230px){
+  .img-con {
+      flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1170px){
+  .banner, .about{
+    gap: 2rem;
+  }
+
+  .banner .img, .about .img{
+    width: 100%;
+  }
+
+  .img img{
+    width: 350px;
+  }
+
+  .banner{
+    margin-top: 0vh;
+  }
+
+  .section{
+    padding: 2rem 4rem;
+  }
+
+  .blog-writecon{
+    width: 100%;
+  }
+
+  .blog-writecon img{
+    width: 50%;
+  }
+
+  .contact-con h1{
+    font-size: 30px;
+  }
+}
+
+
+
+@media (max-width: 750px) {
+
+  .banner-writeup h1, .about-writeup h1{
+    font-size: 24px;
+  }
+
+  .banner p{
+    text-align: center;
+  }
+  .section{
+    padding: 1rem 4rem;
+  }
+
+  .banner, .about{
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+    padding-bottom: 7vh;
+  }
+  
+  .banner-writeup{
+    order: 2;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .banner .img{
+    order: 1;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .about .img{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-writeup{
+    margin-top: 0;
+    text-align: center;
+    
+  }
+
+  header{
+    z-index: 100;
+    position: sticky;
+    background: rgba(237, 233, 228, 1);
+  }
+
+  .img img{
+    height: 500px;
+    width: 380px;
+    
+  }
+
+  button {
+      padding: 18px 50px;
+      text-align: center;
+      font-size: 14px;
+  }
+
+  .img-con {
+      flex-wrap: wrap;
+  }
+  
+  .img-con .passionImg img {
+      width: 285px;
+      height: 285px;
+  }
+
+  .passion h1{
+    font-size: 50px;
+  }
+
+  .blog{
+    padding: 2rem 0;
+  }
+
+  .blog-writecon{
+    display: inline-block;
+    width: 100%;
+  }
+
+  .blog-writecon img{
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .blog-write p{
+    text-align: center;
+  }
+
+  .blog-write{
+    padding: 0rem 4rem 2rem;
+    text-align: center;
+  }
+
+  .blog-write h2{
+    font-size: 25px;
+  }
+
+  .blog-write p{
+    text-align: start;
+  }
+  p{
+    text-align: start;
+  }
+
+  .contact-con{
+    padding: 0;
+    text-align: center;
+  }
+  .contact-con h1{
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .socials{
+    padding: 2rem;
+  }
+
+  .socials p{
+    text-align: center;
+  }
+  
+  .socials h1{
+    font-size: 25px;
+  }
+
+  .social-media li{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .social-media ul{
+    padding: 0;
+  }
+
+  .image-con img{
+    height: 30vh;
+  }
+
+  .mainFooter{
+    display: block;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+
+  .title h1{
+    font-size: 50px;
+  }
+
+  .footer-writeup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+}
+
+@media (max-width: 730px){
+  nav ul{
+    display: none;
+  }
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
