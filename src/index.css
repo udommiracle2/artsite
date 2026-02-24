@@ -418,7 +418,7 @@ a{
   }
 
   .blog{
-    padding: 2rem 0;
+    padding: 2rem 0rem;
   }
 
   .blog-writecon{
@@ -437,12 +437,13 @@ a{
   }
 
   .blog-write{
-    padding: 0rem 4rem 2rem;
+    padding: 0rem 2rem 2rem;
     text-align: center;
   }
 
   .blog-write h2{
     font-size: 25px;
+    text-align: start;
   }
 
   .blog-write p{
@@ -489,7 +490,11 @@ a{
   .mainFooter{
     display: block;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 0rem;
+  }
+
+  .mainFooter ul{
+    padding: 0;
   }
 
   .title h1{
