@@ -161,22 +161,29 @@ button:hover{
 
 .abtImg{
   width: 100%;
-  margin-left: 190px;
+  display: flex;
+  position: relative;
+  flex: 1.2;
+  flex-direction: column;
+}
+
+.img1{
+  width: 90%;
+  align-self: flex-end;
 }
 
 .img1 img{
-  height: 400px;
-  width: 400px;
+  width: 100%;
 }
 
 .img2 img{
-  height: 400px;
-  width: 450px;
+  width: 100%;
 }
 
 .img2{
-  margin-top: -100px;
-  margin-left: -150px;
+  margin-top: -70px;
+  margin-left: -25px;
+  width: 80%;
 }
 
 .passion{
@@ -354,9 +361,25 @@ a{
 .footer-writeup{
   text-align: end;
 }
+@media (max-width: 830px){
+  .about-writeup h1{
+    font-size: 45px;
+  }
+}
 
+@media (max-width: 1260px){
+    .about-container img{
+      width: 100%;
+    }
+    .about-container, .abt-con{
+      gap: 4rem;
+    }
 
-
+    .img1 img, .img2 img{
+      width: 300px;
+      height: 300px;
+    }
+}
 
 
 @media (max-width: 1230px){
@@ -401,8 +424,8 @@ a{
 
 
 
-@media (max-width: 750px) {
-
+@media (max-width: 780px) {
+  
   .banner-writeup h1, .about-writeup h1{
     font-size: 24px;
   }
@@ -447,6 +470,10 @@ a{
     margin-top: 0;
     text-align: center;
     
+  }
+
+  .about-writeup h1{
+    font-size: 45px;
   }
 
   header{
@@ -634,6 +661,24 @@ a{
       cursor: pointer;
       z-index: 101;
   }
+}
+
+@media (max-width: 550px){
+    .img1 img, .img2 img {
+        width: 200px;
+        height: 200px;
+      }
+    
+      .img2 {
+        margin-left: 130px;
+      }
+    
+      .abtImg {
+        order: 1;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+      }
 }
 
 /* @media (prefers-color-scheme: light) {
