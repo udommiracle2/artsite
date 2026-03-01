@@ -664,7 +664,14 @@ a{
 }
 
 @media (max-width: 550px){
+    .abtImg{
+      width: 100%;
+    }
 
+    .img2{
+      margin-left: 100px;
+      width: 60%;
+    }
     
 }
 
