@@ -14,6 +14,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 h1, h2, h3, h4, h5{
   font-family: "Cormorant SC", serif;
@@ -44,6 +47,11 @@ nav ul li{
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
+}
+
+nav ul li link, nav ul li a{
+  text-decoration: none;
+  color: #101010;
 }
 
 .logo{
@@ -117,8 +125,58 @@ button:hover{
   display: flex;
   justify-content: space-between;
   gap: 10rem;
-  height: 130vh;
   background: #ffffff;
+}
+
+.aboutPage{
+  margin-top: -50px;
+}
+
+.about-container{
+  margin-top: -180px;
+}
+
+.about-container h1{
+  font-size: 60px;
+}
+
+.aboutPage .about-container{
+  background: rgba(237, 233, 228, 1);
+}
+
+.about-container2{
+  margin-top: 4rem;
+}
+
+.abt-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+
+.abt-writeup{
+  width: 100%;
+}
+
+.abtImg{
+  width: 100%;
+  margin-left: 190px;
+}
+
+.img1 img{
+  height: 400px;
+  width: 400px;
+}
+
+.img2 img{
+  height: 400px;
+  width: 450px;
+}
+
+.img2{
+  margin-top: -100px;
+  margin-left: -150px;
 }
 
 .passion{
@@ -513,6 +571,30 @@ a{
   }
 
 
+  .abt-con{
+    flex-direction: column;
+  }
+
+
+  .abt-writeup{
+    order: 2;
+  }
+
+  .img1 img, .img2 img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .img2{
+    margin-left: 150px;
+  }
+
+  .abtImg{
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 }
 
 @media (max-width: 730px){

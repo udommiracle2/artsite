@@ -6,7 +6,7 @@ import Drawings from '../images/mojepasje_rysunek.webp'
 
 const Passion = () => {
     return (
-        <div className='passion section'>
+        <div className='passion section' id='passion'>
             <h1>MY PASSION</h1>
             <div className="img-con">
                 <div className="passionImg">
