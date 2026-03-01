@@ -36,6 +36,8 @@ import Blog from "./Components/Blog";
 import Contact from "./Components/Contact";
 import AboutPage from "./Components/aboutPage"; // Ensure this matches your file name
 import Footer from "./Components/Footer";
+import BlogPage from "./Components/blogPage"
+import ContactPage from "./Components/contactPage";
 import '../src/index.css'
 
 function App() {
@@ -57,8 +59,8 @@ function App() {
         {/* Individual Pages */}
         <Route path="/about" element={<AboutPage />} />
         <Route path="/passion" element={<Passion />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </>
