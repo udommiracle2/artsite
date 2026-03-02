@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+SC:wght@300;400;500;600;700&family=Domine:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import "tailwindcss";
 
 :root {
   font-family: system-ui, 'Lato', Helvetica, Arial, sans-serif;
@@ -397,6 +396,110 @@ a{
 .footer-writeup{
   text-align: end;
 }
+
+
+.offer h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+.price{
+  display: flex;
+  gap: 4rem;
+}
+
+.offer-writeup h1{
+  font-size: 40px;
+}
+
+.cart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.cart span{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.offerTemplate{
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  padding: 0;
+}
+
+#item1{
+  height: 90vh;
+  width: 33%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#item2{
+  width: 23%;
+  height: 60vh;
+}
+
+#item3{
+  width: 23%;
+  height: 45vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+#item4{
+  width: 17%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.offerImg2{
+  order: 2;
+  width: 100%;
+}
+
+.offerImg{
+  width: 100%;
+}
+
+.offer-desc2{
+  order: 1;
+}
+
+
+
+@media (max-width: 1050px){
+  .price{
+    display: block;
+  }
+
+
+  .offerImg2, .offerImg{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .offerTemplate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+
 @media (max-width: 830px){
   .about-writeup h1{
     font-size: 45px;

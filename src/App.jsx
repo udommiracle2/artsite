@@ -39,6 +39,8 @@ import Footer from "./Components/Footer";
 import BlogPage from "./Components/blogPage"
 import ContactPage from "./Components/contactPage";
 import '../src/index.css'
+import Offer from "./Components/offer";
+
 
 function App() {
   return (
@@ -58,7 +60,7 @@ function App() {
 
         {/* Individual Pages */}
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/passion" element={<Passion />} />
+        <Route path="/passion" element={<Offer />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
