@@ -366,7 +366,7 @@ form input{
   margin-top: 1rem;
   text-align: center;
   align-items: center;
-  width: 50%;
+  width: 81%;
 }
 
 .form-con h1{
@@ -852,7 +852,11 @@ a{
 
   .form-con{
     margin-top: 2rem;
-    padding: 0 2rem;
+    padding: 0rem;
+  }
+
+  .contImg-con{
+    width: 100%;
   }
 
   .contImg-con h1{
