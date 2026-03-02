@@ -3,7 +3,7 @@ import contactImg from "../images/zdjecie_6.webp"
 const contactPage = () => {
     return (
         <div className='contact section'>
-            <h1 className="text-center text-[50px] font-semibold">Contact</h1>
+            <h1 className="cont-title">Contact</h1>
             <div className="cont-con flex mt-20 gap-16 ">
                 <div className="contImg-con">
                     <div className="rotate-con">

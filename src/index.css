@@ -30,7 +30,9 @@ input{
   width: 80%;
   height: 50px;
   border-bottom: 1px solid #101010;
+  background: rgba(237, 233, 228, 1);
   outline: none;
+  border: none;
 }
 
 #message{
@@ -308,6 +310,76 @@ button:hover{
   font-size: 45px;
 }
 
+.cont-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.cont-con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.contImg-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.contImg-con img{
+  margin-top: -150px;
+  width: 100%;
+}
+
+.form-con{
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+}
+
+.form-con form{
+  align-items: start;
+}
+
+.form-writeup{
+  margin-bottom: 2.5rem;
+}
+
+form input{
+  border-bottom: 1px solid #101010;
+  color: black;
+}
+
+.form-writeup h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.form-con button{
+  margin-top: 1rem;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+}
+
+.form-con h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+
+.contImg-con .rotate{
+  font-size: 55px;
+}
+
 
 .image-con{
   display: flex;
@@ -428,7 +500,6 @@ a{
 
 .offerTemplate{
   display: flex;
-  width: 100%;
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -444,12 +515,12 @@ a{
 }
 
 #item2{
-  width: 23%;
+  width: 25%;
   height: 60vh;
 }
 
 #item3{
-  width: 23%;
+  width: 25%;
   height: 45vh;
   object-fit: cover;
   object-position: center;
@@ -495,6 +566,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
 }
@@ -790,7 +862,6 @@ a{
   .contImg-con img{
     margin-top: -100px;
   }
-
 
 }
 
