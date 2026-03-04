@@ -1,5 +1,6 @@
 import React from 'react'
 import blogImg from '../images/blog_1.webp'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
     return (
@@ -14,11 +15,11 @@ const Blog = () => {
                     <div className="blog-write">
                         <h2>What to keep in mind when creating a visual brand identity?</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At consectetur lorem donec massa sapien faucibus.</p>
-                        <button>READ MORE</button>
+                        <button><Link className="Link" to="/blog/post-one">READ MORE</Link></button>
                     </div>
                 </div>
                 <div className="btn">
-                    <button>SEE MORE</button>
+                    <button><Link className="Link" to="/blog">SEE MORE</Link></button>
                 </div>
             </div>
         </div>

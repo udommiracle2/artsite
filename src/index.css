@@ -582,6 +582,11 @@ a{
   position: relative;
 }
 
+.Link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 
 @media (max-width: 1050px){
   .price{
